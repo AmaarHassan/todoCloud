@@ -1,6 +1,5 @@
 const {
     GraphQLInputObjectType,
-    GraphQLString,
     GraphQLInt
 } = require('graphql')
 const { GraphQLJSON } = require('graphql-type-json');
@@ -8,6 +7,7 @@ const { GraphQLJSON } = require('graphql-type-json');
 const QueryType = new GraphQLInputObjectType({
     name: 'QueryType',
     fields: () => ({
+        params: { type: GraphQLJSON },
         filter: { type: GraphQLJSON },
         limit: { type: GraphQLInt },
         skip: { type: GraphQLInt },
