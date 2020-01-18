@@ -1,0 +1,5 @@
+module.exports = {
+    token: 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJORGxsTlRCa01EZ3RZek5rTmkwMFptSTRMVGd5TVRVdFpUbGtaR0ZqT0dJMU1qUmwiLCJpYXQiOjE1NzkzMzY1MDksImRhdGEiOnsidXNlcmlkIjoiMTJhOTRmMGQtMWRjZi00NzUwLTg1YzgtODkyZjllZDNlNDY3IiwidXNlcm5hbWUiOiJhbWFhcmhhc3NhbmNzQGdtYWlsLmNvbSJ9LCJleHAiOjE1ODA1NDYxMDksImlzcyI6ImFwaS50b2RvLWNsb3VkLmNvbS0xLjAuMCJ9.DKpN_KVXqfO8IW90odE6TnuZ_p4W49HTGuDyv2FXlzU',
+    x_api_key: '7e27rIW2gya22zCNQpRz3aNxiayaODlZ3ZOMMQvj',
+    regexForParams: /\{.*?\}/g
+}

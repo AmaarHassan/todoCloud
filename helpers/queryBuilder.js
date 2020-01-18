@@ -1,5 +1,8 @@
 const queryBuilder = (query) => {
     // no filter obj  ||      // empty filter {}
+    if (!query.params || (Object.keys(query.params).length < 1)) {
+        query.params = null
+    }
     if (!query.filter || (Object.keys(query.filter).length < 1)) {
         query.filter = {}
     }
