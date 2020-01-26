@@ -14,7 +14,7 @@ app.use('/', router);
 
 // listening on port
 app.listen(process.env.port, () => {
-    console.log(`FIFA Score Keeper API Running at ${process.env.port}`)
+    console.log(`Todo Cloud API Running at ${process.env.port}`)
     console.log(`Environment: ${process.env.ENV} `)
     startApolloServer();
 });
